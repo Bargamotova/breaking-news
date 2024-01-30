@@ -1,0 +1,31 @@
+.title {
+  position: relative;
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: var(--grey-text);
+  font-weight: 500;
+  font-family: 'Cinzel', serif;
+  position: relative;
+  text-align: left;
+
+}
+
+.title::after {
+  position: absolute;
+  content: '';
+  width: 100px;
+  height: 2px;
+  background: var(--accent-purple-scroll);
+  bottom: 0;
+}
+
+.title::before {
+  position: absolute;
+  content: '';
+  width: 2px;
+  height: 100px;
+  background: var(--accent-purple-scroll);
+
+  top: -15px;
+  left: -10px;
+}

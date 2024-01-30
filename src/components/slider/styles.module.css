@@ -1,0 +1,25 @@
+.slider {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.slider_arrow {
+  border: none;
+  background: transparent;
+  color: var(--accent-purple-light);
+  cursor: pointer;
+  margin-bottom: 15px;
+
+  svg {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media only screen and (min-width: 1705px) {
+  .slider_arrow {
+    display: none;
+  }
+}

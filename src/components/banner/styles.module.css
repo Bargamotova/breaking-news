@@ -1,0 +1,58 @@
+.banner {
+  display: flex;
+  width: 100%;
+  height: 417px;
+  gap: 12px;
+  margin-bottom: 40px;
+  background: var(--white);
+}
+
+.banner__info {
+  padding: 15px;
+  width: 45%;
+}
+
+.banner__title {
+  color: var(--black);
+  font-size: 3.0rem;
+  text-wrap: balance;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 20px;
+  background: var(--linear-grd);
+  box-shadow: var(--shadow);
+  width: 25ch;
+  padding: 0 0 10px 10px;
+  position: relative;
+  transform: translate(10px, 10px);
+  z-index: 7;
+}
+
+.banner__extra {
+  font-size: 12px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  color: var(--grey-text);
+}
+
+@media only screen and (max-width: 1000px) {
+  .banner {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+
+  .banner__title {
+    transform: translateX(0px);
+    width: 100%;
+  }
+
+  .banner__extra {
+
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+
+  .banner__info {
+    width: 100%;
+  }
+}

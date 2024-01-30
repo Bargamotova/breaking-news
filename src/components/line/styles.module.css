@@ -1,0 +1,9 @@
+.line {
+  background: #fff;
+  height: 1px;
+  padding: 2px;
+  border: none;
+  margin: 50px auto 50px;
+
+  width: 50%;
+}
