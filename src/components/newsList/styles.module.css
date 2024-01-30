@@ -17,7 +17,7 @@
   scroll-snap-type: x mandatory;
   align-items: flex-start;
   justify-content: flex-start;
-  height: 350px;
+  height: 360px;
   padding: 10px;
   margin-bottom: 30px;
 }
@@ -28,7 +28,6 @@
   text-align: center;
   flex-shrink: 1;
   width: 300px;
-  height: 100%;
 
 }
 
