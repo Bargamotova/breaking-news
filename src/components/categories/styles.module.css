@@ -39,7 +39,6 @@
 .cat__btn_active {
   background: var(--accent-purple);
   color: #fff;
-  /* border: 1px solid transparent; */
 }
 
 @media only screen and (max-width: 1705px) {
