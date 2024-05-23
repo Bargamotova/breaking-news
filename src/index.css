@@ -34,9 +34,8 @@
 
 .app {
   background-color: var(--main-bg);
+  transition: all 0.4s;
 }
-
-
 
 *,
 *::after,
